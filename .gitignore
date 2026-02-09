@@ -1,0 +1,23 @@
+# Python
+venv/
+venv_graphcast/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs
+graphcast_output/
+*.xlsx
+*.png
+*.nc
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
