@@ -9,8 +9,10 @@ See **REMOTE_GRAPHCAST_README.md** for setup and usage on a remote machine (e.g.
 
 ## Quick start (remote)
 
+Requires Conda. Then:
+
 ```bash
 ./run_graphcast_remote_setup.sh
-source ./venv_graphcast/bin/activate
+conda activate graphcast
 python run_graphcast_remote.py --lat 23.81 --lon 90.41 --outdir ./graphcast_output
 ```
